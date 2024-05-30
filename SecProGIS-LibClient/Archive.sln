@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SecProGIS-LibClient", "Archive\Archive.vcxproj", "{9CB4BAC3-15F5-44F7-BA52-4E616489E8D2}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup-SecProGIS-LibClient-V1.5.180515", "Setup-SecProGIS-LibClient-V1.5.180515\Setup-SecProGIS-LibClient-V1.5.180515.isproj", "{ED6D69D2-174D-41EC-9C41-370B2B393970}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9CB4BAC3-15F5-44F7-BA52-4E616489E8D2} = {9CB4BAC3-15F5-44F7-BA52-4E616489E8D2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Win32 = CD_ROM|Win32
+		Debug|Win32 = Debug|Win32
+		DVD-5|Win32 = DVD-5|Win32
+		Release|Win32 = Release|Win32
+		SingleImage|Win32 = SingleImage|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CB4BAC3-15F5-44F7-BA52-4E616489E8D2}.CD_ROM|Win32.ActiveCfg = Release|Win32
+		{9CB4BAC3-15F5-44F7-BA52-4E616489E8D2}.CD_ROM|Win32.Build.0 = Release|Win32
+		{9CB4BAC3-15F5-44F7-BA52-4E616489E8D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9CB4BAC3-15F5-44F7-BA52-4E616489E8D2}.Debug|Win32.Build.0 = Debug|Win32
+		{9CB4BAC3-15F5-44F7-BA52-4E616489E8D2}.DVD-5|Win32.ActiveCfg = Debug|Win32
+		{9CB4BAC3-15F5-44F7-BA52-4E616489E8D2}.DVD-5|Win32.Build.0 = Debug|Win32
+		{9CB4BAC3-15F5-44F7-BA52-4E616489E8D2}.Release|Win32.ActiveCfg = Release|Win32
+		{9CB4BAC3-15F5-44F7-BA52-4E616489E8D2}.Release|Win32.Build.0 = Release|Win32
+		{9CB4BAC3-15F5-44F7-BA52-4E616489E8D2}.SingleImage|Win32.ActiveCfg = Release|Win32
+		{9CB4BAC3-15F5-44F7-BA52-4E616489E8D2}.SingleImage|Win32.Build.0 = Release|Win32
+		{ED6D69D2-174D-41EC-9C41-370B2B393970}.CD_ROM|Win32.ActiveCfg = CD_ROM
+		{ED6D69D2-174D-41EC-9C41-370B2B393970}.CD_ROM|Win32.Build.0 = CD_ROM
+		{ED6D69D2-174D-41EC-9C41-370B2B393970}.Debug|Win32.ActiveCfg = DVD-5
+		{ED6D69D2-174D-41EC-9C41-370B2B393970}.Debug|Win32.Build.0 = DVD-5
+		{ED6D69D2-174D-41EC-9C41-370B2B393970}.DVD-5|Win32.ActiveCfg = DVD-5
+		{ED6D69D2-174D-41EC-9C41-370B2B393970}.DVD-5|Win32.Build.0 = DVD-5
+		{ED6D69D2-174D-41EC-9C41-370B2B393970}.Release|Win32.ActiveCfg = SingleImage
+		{ED6D69D2-174D-41EC-9C41-370B2B393970}.Release|Win32.Build.0 = SingleImage
+		{ED6D69D2-174D-41EC-9C41-370B2B393970}.SingleImage|Win32.ActiveCfg = SingleImage
+		{ED6D69D2-174D-41EC-9C41-370B2B393970}.SingleImage|Win32.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

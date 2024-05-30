@@ -1,0 +1,74 @@
+﻿生成启动时间为 2019/3/17 15:32:29。
+     1>项目“E:\SecProGIS_SVN\项目成员\黄梦蝶\SecProGIS项目\SecProGIS-LibClient515\Archive\Archive.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\SecProGIS-LibClient.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         E:\VS2012\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\Archive\mysql\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D CODE_ANALYSIS /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\SecProGIS-LibClient.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze /analyze:log "Release\Archive.cpp.nativecodeanalysis.xml" /analyze:pluginlocalespc.dll /errorReport:prompt   /analyze:quiet Archive.cpp
+         Archive.cpp
+     1>Archive.cpp(81): warning C4244: “初始化”: 从“LONGLONG”转换到“int”，可能丢失数据
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         E:\VS2012\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\SecProGIS_SVN\项目成员\黄梦蝶\SecProGIS项目\SecProGIS-LibClient515\Release\SecProGIS-LibClient.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Archive\mysql\lib /LIBPATH:..\Archive\OpenSSL\lib /LIBPATH:..\Archive\Msimg32\lib libmysql.lib libeay32.lib ssleay32.lib msimg32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\VS2012\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\SecProGIS_SVN\项目成员\黄梦蝶\SecProGIS项目\SecProGIS-LibClient515\Release\SecProGIS-LibClient.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\SecProGIS_SVN\项目成员\黄梦蝶\SecProGIS项目\SecProGIS-LibClient515\Release\SecProGIS-LibClient.lib" /MACHINE:X86 /SAFESEH Release\Archive.res
+         Release\Archive.obj
+         Release\ArchiveDlg.obj
+         Release\AutoCombox1.obj
+         Release\base64.obj
+         Release\BWord.obj
+         Release\cJSON.obj
+         Release\DBTable.obj
+         Release\INTmysql.obj
+         Release\KM.obj
+         Release\ListCtrlSort.obj
+         Release\LoginDlg.obj
+         Release\sm3.obj
+         Release\sm4.obj
+         Release\stdafx.obj
+         Release\ViewDlg.obj
+            正在创建库 E:\SecProGIS_SVN\项目成员\黄梦蝶\SecProGIS项目\SecProGIS-LibClient515\Release\SecProGIS-LibClient.lib 和对象 E:\SecProGIS_SVN\项目成员\黄梦蝶\SecProGIS项目\SecProGIS-LibClient515\Release\SecProGIS-LibClient.exp
+         正在生成代码
+     1>e:\secprogis_svn\项目成员\黄梦蝶\secprogis项目\secprogis-libclient515\archive\archivedlg.cpp(934): warning C4715: “CArchiveDlg::GetPlainDir”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         Archive.vcxproj -> E:\SecProGIS_SVN\项目成员\黄梦蝶\SecProGIS项目\SecProGIS-LibClient515\Release\SecProGIS-LibClient.exe
+     1>deelx.h(262): warning : C6308: “realloc”可能返回 null 指针: 将 null 指针赋给“m_pBuffer”(后者将作为参数传递给“realloc”)将导致原始内存块泄漏。
+     1>deelx.h(267): warning : C28182: 取消对 NULL 指针的引用。“m_pBuffer”包含与“realloc()`262”相同的 NULL 值。
+     1>deelx.h(344): warning : C6308: “realloc”可能返回 null 指针: 将 null 指针赋给“m_pBuffer”(后者将作为参数传递给“realloc”)将导致原始内存块泄漏。
+     1>deelx.h(351): warning : C6387: “m_pBuffer+m_nSize”可能是“0”: 这不符合函数“memset”的规范。
+     1>deelx.h(2974): warning : C6330: 已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。
+     1>deelx.h(2989): warning : C6330: 已将“char”作为 _Param_(1) 传递，但需要使用“unsigned char”来调用“isspace”。
+     1>deelx.h(238): warning : C6308: “realloc”可能返回 null 指针: 将 null 指针赋给“m_pBuffer”(后者将作为参数传递给“realloc”)将导致原始内存块泄漏。
+     1>deelx.h(243): warning : C6387: “m_pBuffer+m_nSize”可能是“0”: 这不符合函数“memcpy”的规范。
+     1>deelx.h(246): warning : C28182: 取消对 NULL 指针的引用。“m_pBuffer”包含与“realloc()`238”相同的 NULL 值。查看第 243 行以找出可能会发生此情况的前一位置
+     1>deelx.h(189): warning : C6387: “m_pBuffer”可能是“0”: 这不符合函数“memcpy”的规范。
+     1>deelx.h(190): warning : C6011: 取消对 NULL 指针“m_pBuffer”的引用。查看第 189 行以找出可能会发生此情况的前一位置
+     1>archivedlg.cpp(243): warning : C6246: “dc”的局部声明遮蔽了外部作用域中具有相同名称的声明。有关其他信息，请参见此前位于“211”行(“e:\secprogis_svn\项目成员\黄梦蝶\secprogis项目\secprogis-libclient515\archive\archivedlg.cpp”中)的声明。
+     1>archivedlg.cpp(328): warning : C6283: “lsf”使用数组 new [] 分配，但使用标量 delete 删除。
+     1>archivedlg.cpp(879): warning : C6386: 写入到“curr”时缓冲区溢出: 可写大小为“260”个字节，但可能写入了“520”个字节。
+     1>bword.cpp(146): warning : C6283: “tmp”使用数组 new [] 分配，但使用标量 delete 删除。
+     1>cjson.c(1368): warning : C6011: 取消对 NULL 指针“input_buffer”的引用。查看第 1345 行以找出可能会发生此情况的前一位置
+     1>dbtable.cpp(163): warning : C28182: 取消对 NULL 指针的引用。“ret”包含与“rows”相同的 NULL 值。
+     1>km.cpp(125): warning : C6283: “sql”使用数组 new [] 分配，但使用标量 delete 删除。
+     1>afxmt.inl(109): warning : C26135: 函数 'CCriticalSection::Lock' 中缺少注释 _Acquires_lock_(this->m_sect)。
+     1>afxmt.inl(124): warning : C26135: 函数 'CCriticalSection::Unlock' 中缺少注释 _Releases_lock_(this->m_sect)。
+       FinalizeBuildStatus:
+         正在删除文件“Release\SecProGIS-LibClient.unsuccessfulbuild”。
+         正在对“Release\SecProGIS-LibClient.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\SecProGIS_SVN\项目成员\黄梦蝶\SecProGIS项目\SecProGIS-LibClient515\Archive\Archive.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:32.06
